@@ -1,0 +1,19 @@
+/*punto 7 y 8 css*/
+.enlaces{
+    background-color:#d5a5d5;
+    display: inline-flex;
+    padding: 20px 300px 20px 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.enlaces a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.enlaces a:hover{
+    background-color:blue;
+
+}
+
+

@@ -1,0 +1,40 @@
+
+/*punto cinco css*/h1{
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+p{
+
+    line-height: 40px;
+    font-style: Times New Roman;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ColorVerde{
+    color: green;
+    text-decoration: underline;
+}
+#Rojo{
+    color: red;
+}
+#SubrayadoDoble{
+    text-decoration: underline overline;
+    
+}
+#TextoGrande{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#Azul{
+    color:blue;
+}
+
+#RojoSubrayado{
+    color: red;
+    text-decoration: underline;
+
+}

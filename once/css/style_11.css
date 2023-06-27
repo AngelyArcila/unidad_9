@@ -1,0 +1,77 @@
+/*punto 11 css*/
+/*animación 1*/
+
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+  }
+
+  50% {
+    background-color: yellow;
+    left: 200px;
+  }
+
+  100% {
+    background-color: red;
+    left: 0px;
+  }
+}
+
+/*animación 2*/
+
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/* @keyframes: La animación se crea cambiando gradualmente de un conjunto de estilos CSS a otro.
+Durante la animación, puede cambiar el conjunto de estilos CSS muchas veces.*/
+
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    background-color: blue;
+    left: 0px;
+    top: 200px;
+  }
+
+  50% {
+    background-color: green;
+    left: 200px;
+    top: 200px;
+  }
+
+  75% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
